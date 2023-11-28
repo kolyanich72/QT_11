@@ -58,11 +58,9 @@ class Mfwindow(QtWidgets.QWidget):
             auth_ = authenticate(__login_, __passwrd)
         except KeyError:
             QtWidgets.QMessageBox.warning(self, "Error", "wrong login")
-
             return
 
         if auth_:
-            # greeting = f"welcome {__login_}"
 
             QtWidgets.QMessageBox.about(self, "welcome", __login_)
             # QtWidgets.QMessageBox.warning(self,"Hi!",__login_ )
