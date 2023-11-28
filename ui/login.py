@@ -105,5 +105,3 @@ class Ui_Form(object):
         self.pushButton_OK.setText(QCoreApplication.translate("Form", u"OK", None))
         self.pushButton_regstrn.setText(QCoreApplication.translate("Form", u"Registration", None))
     # retranslateUi
-
-
